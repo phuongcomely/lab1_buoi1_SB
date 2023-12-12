@@ -37,7 +37,7 @@ let questionsStatus = questions.map((question, index) => { //hàm duyệt câu h
     return false;
 });
 console.log(questionsStatus);
-
+ 
 
 const questionTitleEl = document.querySelector("#question p"); // hiển thị tiêu đề câu hỏi
 const choicesEl = document.querySelector(".choices"); // hiển thị ds các lựa chọn
