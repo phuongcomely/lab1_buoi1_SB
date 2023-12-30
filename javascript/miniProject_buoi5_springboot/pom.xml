@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>vn.techmaster</groupId>
-	<artifactId>MiniProject_buoi5_sboot</artifactId>
+	<artifactId>miniProject_buoi5_cpringboot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>MiniProject_buoi5_sboot</name>
-	<description>MiniProject_buoi5_sboot</description>
+	<name>miniProject_buoi5_cpringboot</name>
+	<description>miniProject_buoi5_cpringboot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -20,6 +20,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>5.2</version> <!-- Check for the latest version -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
